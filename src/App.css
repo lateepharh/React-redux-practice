@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: fit-content;
+    width: 100%;
+    background-color: brown;
+    color: white;
+    padding: 1rem 2rem;
+}
+.nav-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav svg{
+    width: 20px;
+    color: #fff;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.cart-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item-flex{
+    display: flex;
+    gap: 2.8rem;
+    align-items: center;
+}
+.item-card{
+    margin: 2rem;
+}
+.cart-item svg{
+    color: brown;
+}
+.overlay {
+    min-height: 100vh;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(225, 225, 225, 0.1);
+}
+
+.overlay-inner {
+    background-color: brown;
+    color: white;
+    width: 300px;
+    padding: 1.5rem;
+    position: relative;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    height: fit-content;
+}
+
+
+
+
+.overlay-inner .btn-container{
+    display: flex;
+    gap: 2rem;
+    margin-top: 30px;
+}
+
+.overlay-inner .inner-box img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.inner-box h3 {
+    margin-top: 10px;
+    color: green;
+}
+
+.inner-box h4 {
+    color: blue;
+}
+
+.overlay-inner button {
+    outline: none;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: #24a0ed;
+    color: white;
+    padding: 0.8rem;
+    font-weight: bold;
+}
+.btn-container .cancel{
+    border: none;
+    background-color: red;
+}
